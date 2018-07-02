@@ -1,0 +1,164 @@
+@CHARSET "UTF-8";
+* { 
+	padding: 0; 
+	margin: 0; 
+}
+#animationContainer {
+	/*position: absolute;
+	display: inline-block !important;
+	top: 0px !important;
+	vertical-align:top !important;
+	/*margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;*/
+}
+
+.noDecor {
+    text-decoration: none !important
+}
+
+.fontCool {
+    font-family: Calibri;
+    color: #D1CCCC;
+}
+
+.fontPadded {
+    padding-right: 1em;
+}
+
+.fontCool:hover {
+    color: white;
+}
+
+.largeFont {
+    font-size: 1.3em;
+}
+
+.smallFont {
+    font-size: 1em;
+}
+
+.gameDisplay {
+
+}
+
+ul {
+    margin-bottom: 0rem;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.form-group {
+    margin-bottom: 0rem;
+}
+
+.my-light-gray{
+	background-color:#D8D8D8 !important;
+	color: #088A08 !important;
+	font-family: 'Orbitron', sans-serif !important;
+	width: 12em !important;
+}
+
+canvas { 
+	background: #eee; 
+	display: block; 
+	margin: 0 auto; 
+}
+
+html, body {
+  height: 100%;
+}
+
+.btn-default {
+	background-color:#D8D8D8 !important;
+}
+
+.btn-group {
+
+}
+
+.btn-default:hover,
+.btn-default:active,
+.btn-default:visited,
+.btn-default:focus {
+    background-color: #F2F2F2 !important;
+}
+#navbar {
+    /*max-height: 2em !important;*/
+}
+
+.buttons-container {
+	display:table;
+    padding-top: 0.5em;
+}
+
+.container-cell {
+	display:table-cell;
+}
+
+.alignToLeft {
+    text-align: left;
+    display: inline-block;
+}
+
+.stretched {
+	width: 100% !important;
+}
+
+.stretched-third {
+	width: 33% !important;
+}
+
+.stretched-third-more {
+	width: 34% !important;
+}
+
+.no-bullets {
+	list-style-type: none;
+}
+
+.vertical-center {
+  min-height: 80%;  /* Fallback for vh unit */
+  min-height: 80vh; /* You might also want to use
+                        'height' property instead.
+                        
+                        Note that for percentage values of
+                        'height' or 'min-height' properties,
+                        the 'height' of the parent element
+                        should be specified explicitly.
+  
+                        In this case the parent of '.vertical-center'
+                        is the <body> element */
+
+  /* Make it a flex container */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+  
+  /* Align the bootstrap's container vertically */
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  
+  /* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container */
+  width: 100%;
+  
+  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+  
+     Therefore, we should use the following declarations to get it centered again */
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}

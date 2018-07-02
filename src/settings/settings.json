@@ -1,0 +1,36 @@
+{
+  "gameWidth": "480",
+  "gameHeight": "320",
+  "styles": {
+    "titleFont": "fontCool largeFont noDecor",
+    "mainNavBar": "navbar bg-dark navbar-expand navbar-dark sticky-top",
+    "resultsContainer": "container container-cell",
+    "resultBar": "navbar bg-dark navbar-dark float-right container-cell",
+    "resultLabel": "fontCool smallFont noDecor fontPadded",
+    "resultDisplay": "form-control text-right my-light-gray",
+    "playButton": "fa fa-play-circle btn btn-default stretched-third",
+    "pauseButton": "fa fa-pause-circle btn btn-default stretched-third-more",
+    "stopButton": "fa fa-stop-circle btn btn-default stretched-third"
+  },
+  "events": {
+    "score": "score-topic",
+    "gamesPlayed": "games-played-topic"
+  },
+  "game": {
+    "ballColor": "#F200A2",
+    "brickColor": "#0095DD",
+    "paddleColor": "#0095DD",
+    "brickRowCount": 3,
+    "brickWidth": 75,
+    "brickHeight": 20,
+    "brickPadding": 10,
+    "brickOffsetTop": 30,
+    "brickOffsetLeft": 30,
+    "paddleHeight": 10,
+    "paddleWidth": 75,
+    "dx_paddle": 7,
+    "toleranceX": 1,
+    "toleranceY": 2,
+    "radius": 10
+  }
+}
